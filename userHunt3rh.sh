@@ -60,24 +60,24 @@ function userattack()
       read -p "Press [Enter] to continue..."
       cd ..
       echo
-      cd userHunt3r/sherlock
+      cd userHunt3rh/sherlock
       service tor restart
       python3 sherlock.py $useracc 
       read -p "Press [Enter] to continue..."
       echo 
       cd ..
       echo
-      cd userrecon-py
+      cd userHunt3rh/userrecon-py
       service tor restart
       python3 bin/userrecon-py --target $useracc
       read -p "Press [Enter] to continue..."
       echo
       cd ..
       echo
-      cd WhatsMyName
+      cd userHunt3rh/WhatsMyName
       service tor restart
       echo 
-       echo -e " \e[5mWhatsMyName TAKES TIME!!! \e[0m"
+      echo -e " \e[5mWhatsMyName TAKES TIME!!! \e[0m"
       echo
       read -p "Press [Enter] to continue..."
       python3 ./web_accounts_list_checker.py -u $useracc
