@@ -14,7 +14,7 @@ In folder installers run
 
 * **kali**: ```# ./userHunt3rh.sh   ```
 
-for the more paranoid 
+for the more paranoid --- use tor takes longer
 
 * **kali**: ```# ./userHunt3rh-tor.sh   ```
 
