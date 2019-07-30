@@ -18,6 +18,11 @@ for the more paranoid
 
 * **kali**: ```# ./userHunt3rh-tor.sh   ```
 
+choose option "b"
+
+you will need to submit username 
+
+example : dick.tracy
 
 
 
