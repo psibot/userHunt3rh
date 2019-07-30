@@ -67,7 +67,7 @@ function userattack()
       echo 
       cd ..
       echo
-      cd userHunt3rh/userrecon-py
+      cd userrecon-py
       service tor restart
       python3 bin/userrecon-py --target $useracc
       read -p "Press [Enter] to continue..."
