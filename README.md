@@ -22,7 +22,7 @@ choose option "b"
 
 you will need to submit username 
 
-example : dick.tracy
+example : dick.tracey
 
 ![Example](https://imgur.com/Ld6ZQGo.png)
 ![Example](https://imgur.com/nuBehIE.png)
