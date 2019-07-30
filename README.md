@@ -7,7 +7,7 @@ Find user accounts on the net!!. Using the great OSINT info tools to recon USERN
 Tested on Kali.
 
 In folder installers run 
-
+* **kali**: ```# chmod 770 *.sh   ```
 * **kali**: ```# ./init-install.sh   ```
 
 # How to use:
