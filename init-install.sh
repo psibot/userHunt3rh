@@ -44,7 +44,7 @@ cd ..
     echo
 git clone https://github.com/WebBreacher/WhatsMyName.git
 cd WhatsMyName
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 cd ..
 #sherlock
      echo
@@ -59,7 +59,7 @@ cd ..
     echo -e "\e[40;38;5;82m [+] \e[30;48;5;82m Installing userrecon \e[0m"
     echo
 git clone https://github.com/decoxviii/userrecon-py.git ; cd userrecon-py
-sudo -H pip3 install -r requirements.txt
+sudo -H pip install -r requirements.txt
 python3 setup.py build
 sudo python3 setup.py install
 
