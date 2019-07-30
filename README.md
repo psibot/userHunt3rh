@@ -14,7 +14,7 @@ In folder installers run
 
 * **kali**: ```# ./userHunt3rh.sh   ```
 
-for the more paranoid --- use tor takes longer . to setup tor sock check bottem of readme file
+for the more paranoid --- use tor takes longer . to setup tor sock check bottom of readme file
 
 * **kali**: ```# ./userHunt3rh-tor.sh   ```
 
