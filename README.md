@@ -1,6 +1,8 @@
-userHunt3rh
 
-Find user accounts on the net!!.
+userHunt3rh
+===========
+
+Find user accounts on the net!!. Using the great OSINT info tools to recon USERNAMES!
 
 Tested on Kali.
 
