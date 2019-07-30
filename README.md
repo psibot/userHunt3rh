@@ -24,7 +24,7 @@ you will need to submit username
 
 example : dick.tracy
 
-![Example](https://imgur.com/Ld6ZQGo)
+![Example](https://imgur.com/Ld6ZQGo.png)
 
 
 Also do :
