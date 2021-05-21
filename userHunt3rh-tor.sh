@@ -54,7 +54,7 @@ function userattack()
       echo
       echo "Please enter username : "
       read useracc
-      cd ../pwndb
+      cd pwndb
       python pwndb.py --target $useracc
       echo
       read -p "Press [Enter] to continue..."
@@ -67,9 +67,8 @@ function userattack()
       echo
       cd ..
       echo
-      cd userrecon-py
       service tor restart
-      torify python3 bin/userrecon-py --target $useracc
+      torify python3 userrecon-py --target $useracc
       read -p "Press [Enter] to continue..."
       echo
       cd ..
@@ -80,7 +79,7 @@ function userattack()
       echo -e " \e[5mWhatsMyName TAKES TIME!!! \e[0m"
       echo
       read -p "Press [Enter] to continue..."
-      torify python3 ./web_accounts_list_checker.py -u $useracc
+      torify python3 ./WhatsMyName/web_accounts_list_checker.py -u $useracc
       read -p "Press [Enter] to continue..."
       echo
 
