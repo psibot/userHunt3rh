@@ -55,12 +55,12 @@ function userattack()
       echo "Please enter username : "
       read useracc
       cd pwndb
-      python pwndb.py --target $useracc
+      python3 pwndb.py --target $useracc
       echo
       read -p "Press [Enter] to continue..."
       cd ..
       echo
-      cd userHunt3rh/sherlock
+      cd sherlock
       service tor restart
       python3 sherlock.py $useracc
       read -p "Press [Enter] to continue..."
@@ -80,7 +80,7 @@ function userattack()
       echo -e " \e[5mWhatsMyName TAKES TIME!!! \e[0m"
       echo
       read -p "Press [Enter] to continue..."
-      python3 ./web_accounts_list_checker.py -u $useracc
+      python3 ./WhatsMyName/web_accounts_list_checker.py -u $useracc
       read -p "Press [Enter] to continue..."
       echo
 
