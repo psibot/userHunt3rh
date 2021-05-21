@@ -9,7 +9,7 @@ I Fixed the scipt for new updates and executes.
 
 Please setup python with TOR PROXY !!!
 
-FYI I have also included a option to scape pastebins for leaked domain email accounts - option C
+FYI I have also included a option to search  pastebins for leaked domain email accounts - option C
 
 Tested on Kali.
 
