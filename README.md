@@ -1,9 +1,13 @@
 
-userHunt3rh
+userHunt3rh Version 2
 ===========
 
 Find user accounts on the net!!. Using the great OSINT info tools to recon USERNAMES!
 OSINT USERNAMES.
+
+I Fixed the scipt for new updates and executes.
+
+Please setup python with TOR PROXY !!!
 
 Tested on Kali.
 
