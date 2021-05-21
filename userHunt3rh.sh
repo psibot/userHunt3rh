@@ -54,7 +54,7 @@ function userattack()
       echo
       echo "Please enter username : "
       read useracc
-      cd ../pwndb
+      cd pwndb
       python pwndb.py --target $useracc
       echo
       read -p "Press [Enter] to continue..."
